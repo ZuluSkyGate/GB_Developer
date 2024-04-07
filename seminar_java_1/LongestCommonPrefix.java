@@ -9,7 +9,7 @@ public class LongestCommonPrefix {
     public static void main(String[] args) {
         String[] test1 = {"flower", "flow", "flight"};
         String[] test2 = {"dog", "racecar", "car"};
-        String[] test3 = {"ab", "abc", "abcd"};
+        final String[] test3 = {"ab", "abc", "abcd"};
         String[] test4 = {"a"};
         String[] test5 = {};
 
