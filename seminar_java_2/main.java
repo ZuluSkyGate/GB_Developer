@@ -1,20 +1,10 @@
-package seminar_java_2;
-
-public class main {
-    
-}
-
-
 /**
      * Напишите метод, который вернет содержимое текущей папки в виде массива строк.
      * Напишите метод, который запишет массив, возвращенный предыдущим методом в файл.
      * Обработайте ошибки с помощью try-catch конструкции. В случае возникновения исключения,
      * оно должно записаться в лог-файл.
-     */
-    public static String[] getArrayString(String path) {
-        File file = new File(path);
-        return file.list();
-    }
+     **/
+
 
 public static void main(String[] args) {
         try {
