@@ -15,3 +15,6 @@ def main():
     
     # Удаляем лишние пробелы у каждой строки
     arr = [s.strip() for s in arr]
+    
+    # Фильтруем строки, длина которых меньше или равна 3 символам
+    short_strings = filter_short_strings(arr)
