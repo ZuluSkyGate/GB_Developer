@@ -18,3 +18,6 @@ def main():
     
     # Фильтруем строки, длина которых меньше или равна 3 символам
     short_strings = filter_short_strings(arr)
+    
+    # Выводим результат
+    print("Строки длиной не более 3 символов:", short_strings)
