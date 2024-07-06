@@ -3,7 +3,7 @@
 // их необходимо считать, как одного человека с разными телефонами. Вывод должен быть отсортирован по убыванию числа телефонов.
 
 import java.util.*;
-package homework_lesson_6_java;
+package control_homework_6_Java;
 
 public class PhoneBook {
     public static void main(String[] args) {
